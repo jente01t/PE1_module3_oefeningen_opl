@@ -17,10 +17,10 @@ for (let i = 1; i <= midden; i++ ) {
     console.log(rij);
 }
 
-for(let i = 1; i <= midden -1; i++) {
+for(let i = midden - 1; i >= 1; i--) {
     let rij = '';
-    for(let j = 1; j <= midden + i; j++){
-        rij = ' ';
+    for(let j = 1; j <= midden - i; j++){
+     rij += ' ';
     } for (let k = 1; k <= 2 * i - 1;k++) {
         rij += '*';
     } console.log(rij)
