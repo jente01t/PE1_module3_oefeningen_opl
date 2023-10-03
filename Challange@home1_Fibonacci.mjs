@@ -8,8 +8,8 @@ let maxGetal = parseFloat(await userInput.question('Geef een maximum getal :'));
 let getal1 = 0;
 let getal2 = 1;
 
-console.log(getal1)
-console.log(getal2)
+console.log(getal1);
+console.log(getal2);
 
 for (let i = 0; i <= maxGetal; i = i) {
     i = getal1 + getal2;
